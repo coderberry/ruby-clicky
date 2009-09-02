@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "ruby-clicky"
     gem.summary = %Q{clicky stats for ruby}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{log traffic to the clicky web analytics stat app}
     gem.email = "andy@webandy.com"
     gem.homepage = "http://github.com/webandy/ruby-clicky"
     gem.authors = ["Andy Atkinson"]
