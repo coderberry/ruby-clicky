@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/config.sample.yml",
+     "lib/clicky.sample.yml",
      "lib/ruby-clicky.rb",
      "ruby-clicky.gemspec",
      "test/ruby-clicky_test.rb",
