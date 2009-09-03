@@ -25,8 +25,13 @@ require 'yaml'
 
 class GetClicky
  
-  # place a clicky.yml file in the config directory of your Rails app
-  config = YAML::load_file("config/clicky.yml") || YAML::load_file("clicky.sample.yml")
+  begin
+    # place a clicky.yml file in the config directory of your Rails app
+    config = YAML::load_file("config/clicky.yml")
+  rescue
+    # sample config used by test
+    config = YAML::load_file("lib/clicky.sample.yml")
+  end
   SITE_ID = config['SITE_ID']
   SITEKEY_ADMIN = config['SITEKEY_ADMIN']
   DATABASE_SERVER = config['DATABASE_SERVER']

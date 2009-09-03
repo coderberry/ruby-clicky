@@ -1,6 +1,7 @@
 = ruby-clicky
 
-Description goes here.
+Ruby access to the GetClicky web analytics. http://getclicky.com/
+For usage see the test file.
 
 == Note on Patches/Pull Requests
  
