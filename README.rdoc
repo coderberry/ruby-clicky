@@ -4,6 +4,7 @@ Ruby access to the Clicky web analytics tool. http://getclicky.com/
 For usage see the test file.
 More details are here: http://getclicky.com/forums/?id=2668
 
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
